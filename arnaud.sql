@@ -66,19 +66,19 @@ insert into auteurLivre (idAuteur, ISBN) values (
 ),
 (
     (select id from auteur where nom = 'Moreau' and prenom = 'Philippe'),
-    '9782212138115'
+    '9782212194826'
 ),
 (
     (select id from auteur where nom = 'Moreau' and prenom = 'Philippe'),
-    '9782212138115'
+    '9782212194824'
 ),
 (
     (select id from auteur where nom = 'Moreau' and prenom = 'Philippe'),
-    '9782212138115'
+    '9782212194843'
 ),
 (
     (select id from auteur where nom = 'Moreau' and prenom = 'Philippe'),
-    '9782212138115'
+    '9782212193576'
 );
 -- id INT PRIMARY KEY AUTO_INCREMENT,
 -- idAuteur INT,
