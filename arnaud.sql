@@ -11,6 +11,22 @@ insert into editeur values ('Eyrolles');
 insert into article values ('Excel 2013 Initiation', 
 "Maîtrisez rapidement les fonctions essentielles d'Excel 2013 pour créer vos propres feuilles de calcul", 
 10,
+0),
+('PowerPoint 2045 Initiation',
+"Maîtrisez rapidement les fonctions essentielles de PowerPoint 2045 pour créer vos propres diapositives",
+10,
+0),
+('Word 2034 Initiation',
+"Maîtrisez rapidement les fonctions essentielles de Word 2034 pour créer vos documents",
+10,
+0),
+('Adobe Acrobat Reader Initiation',
+"Maîtrisez rapidement ce programme extrêmement lent que vous allez utiliser seulement pour lire des PDFs",
+10,
+0),
+('Paint Initiation',
+"Maîtrisez rapidement les fonctions essentielles de Paint pour faire vos cours d'Angular en distanciel",
+10,
 0);
 -- ref INT PRIMARY KEY,
 --     titre VARCHAR(100),
@@ -20,6 +36,18 @@ insert into article values ('Excel 2013 Initiation',
 
 insert into livre values('9782212138115', 'excel.png', 'poche', 'Eyrolles', 
 (select ref from article where titre = 'Excel 2013 Initiation'), 
+'bureautique'),
+('9782212194826', 'pp.png', 'poche', 'Eyrolles', 
+(select ref from article where titre = 'PowerPoint 2045 Initiation'), 
+'bureautique'),
+('9782212194824', 'word.png', 'poche', 'Eyrolles', 
+(select ref from article where titre = 'Word 2034 Initiation'), 
+'bureautique'),
+('9782212194843', 'aar.png', 'poche', 'Eyrolles', 
+(select ref from article where titre = 'Adobe Acrobat Reader Initiation'), 
+'bureautique'),
+('9782212193576', 'paint.png', 'poche', 'Eyrolles', 
+(select ref from article where titre = 'Paint Initiation'), 
 'bureautique');
 
 -- ISBN INT PRIMARY KEY,
@@ -33,6 +61,22 @@ insert into livre values('9782212138115', 'excel.png', 'poche', 'Eyrolles',
 --     CONSTRAINT fk_editeur FOREIGN KEY (nomEditeur) REFERENCES editeur(nom)
 
 insert into auteurLivre (idAuteur, ISBN) values (
+    (select id from auteur where nom = 'Moreau' and prenom = 'Philippe'),
+    '9782212138115'
+),
+(
+    (select id from auteur where nom = 'Moreau' and prenom = 'Philippe'),
+    '9782212138115'
+),
+(
+    (select id from auteur where nom = 'Moreau' and prenom = 'Philippe'),
+    '9782212138115'
+),
+(
+    (select id from auteur where nom = 'Moreau' and prenom = 'Philippe'),
+    '9782212138115'
+),
+(
     (select id from auteur where nom = 'Moreau' and prenom = 'Philippe'),
     '9782212138115'
 );
