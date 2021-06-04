@@ -8,7 +8,7 @@ insert into genre values ('bureautique');
 
 insert into editeur values ('Eyrolles');
 
-insert into article values ('Excel 2013 Initiation', 
+insert into article (titre, resume, prix, stock) values ('Excel 2013 Initiation', 
 "Maîtrisez rapidement les fonctions essentielles d'Excel 2013 pour créer vos propres feuilles de calcul", 
 10,
 0),
@@ -50,7 +50,7 @@ insert into livre values('9782212138115', 'excel.png', 'poche', 'Eyrolles',
 (select ref from article where titre = 'Paint Initiation'), 
 'bureautique');
 
--- ISBN INT PRIMARY KEY,
+-- ISBN VARCHAR(50) PRIMARY KEY,
 --     imageLivre VARCHAR(50),
 --     formatLivre VARCHAR(40),
 --     nomEditeur VARCHAR (50),
@@ -64,7 +64,7 @@ insert into auteurLivre (idAuteur, ISBN) values (
     (select id from auteur where nom = 'Moreau' and prenom = 'Philippe'),
     '9782212138115'
 ),
-insert into auteurLivre (idAuteur, ISBN) values (
+(
     (select id from auteur where nom = 'Moreau' and prenom = 'Philippe'),
     '9782212194826'
 ),
@@ -82,7 +82,7 @@ insert into auteurLivre (idAuteur, ISBN) values (
 );
 -- id INT PRIMARY KEY AUTO_INCREMENT,
 -- idAuteur INT,
--- ISBN INT,
+-- ISBN VARCHAR(50),
 -- CONSTRAINT fk_auteur FOREIGN KEY (idAuteur) REFERENCES auteur(id),
 -- CONSTRAINT fk_livre FOREIGN KEY (ISBN) REFERENCES livre(ISBN)
 
