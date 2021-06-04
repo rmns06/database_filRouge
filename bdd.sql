@@ -64,7 +64,7 @@ CREATE TABLE LigneCommande (
 );
 
 CREATE TABLE livre (
-    ISBN INT PRIMARY KEY,
+    ISBN VARCHAR(50) PRIMARY KEY,
     imageLivre VARCHAR(50),
     formatLivre VARCHAR(40),
     nomEditeur VARCHAR (50),
@@ -78,7 +78,7 @@ CREATE TABLE livre (
 CREATE TABLE auteurLivre(
     id INT PRIMARY KEY AUTO_INCREMENT,
     idAuteur INT,
-    ISBN INT,
+    ISBN VARCHAR(50),
     CONSTRAINT fk_auteur FOREIGN KEY (idAuteur) REFERENCES auteur(id),
     CONSTRAINT fk_livre FOREIGN KEY (ISBN) REFERENCES livre(ISBN)
 );

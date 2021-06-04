@@ -64,7 +64,7 @@ insert into auteurLivre (idAuteur, ISBN) values (
     (select id from auteur where nom = 'Moreau' and prenom = 'Philippe'),
     '9782212138115'
 ),
-(
+insert into auteurLivre (idAuteur, ISBN) values (
     (select id from auteur where nom = 'Moreau' and prenom = 'Philippe'),
     '9782212194826'
 ),
