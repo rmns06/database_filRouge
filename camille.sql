@@ -1,17 +1,14 @@
 insert into
     editeur
 values
-    ('DUNOD'),
     ('PUF'),
-    ('VUIBERT'),
-    ('Eyrolles');
+    ('VUIBERT');
 
 insert into
     genre
 values
 ('métiers de la formation'),
-('Cybersécurité'),
-('transformation digitale');
+('Cybersécurité');
 
 
 insert into
@@ -150,7 +147,7 @@ L’objectif de l’ouvrage est donc de présenter et discuter les différents e
 values
     (
         '978-2212556261',
-        '1.png',
+        'https://zupimages.net/up/21/23/vges.jpg',
         'Broche',
         'DUNOD',
         (
@@ -167,7 +164,7 @@ values
 values
     (
         '978-2100059386',
-        '2.png',
+        'https://zupimages.net/up/21/23/cbos.jpg',
         'Broche',
         'Eyrolles',
         (
@@ -185,7 +182,7 @@ values
 values
     (
         '978-2130810360',
-        '3.png',
+        'https://zupimages.net/up/21/23/5vtb.jpg',
         'Broche',
         'PUF',
         (
@@ -203,7 +200,7 @@ values
 values
     (
         '978-2311622249',
-        '4.png',
+        'https://zupimages.net/up/21/23/o685.jpg',
         'Broche',
         'VUIBERT',
         (
@@ -221,7 +218,7 @@ values
 values
     (
         '978-2391633249',
-        '5.png',
+        'https://zupimages.net/up/21/23/02vj.jpg',
         'Broche',
         'DUNOD',
         (
@@ -317,7 +314,7 @@ values
 values
     (
         '978-2412050743',
-        '6.png',
+        'https://zupimages.net/up/21/23/2rmb.jpg',
         'Broche',
         'DUNOD',
         (
@@ -350,7 +347,7 @@ values
 values
     (
         '978-2340042414',
-        '7.png',
+        'https://zupimages.net/up/21/23/1erf.jpg',
         'Broche',
         'VUIBERT',
         (
@@ -383,7 +380,7 @@ values
 values
     (
         '978-2340038011',
-        '8.png',
+        'https://zupimages.net/up/21/23/h5gn.jpg',
         'Broche',
         'PUF',
         (
@@ -416,7 +413,7 @@ values
 values
     (
         '978-2363670380',
-        '9.png',
+        'https://zupimages.net/up/21/23/cabe.jpg',
         'Broche',
         'Eyrolles',
         (
@@ -449,7 +446,7 @@ values
 values
     (
         '978-2100790548',
-        '10.png',
+        'https://zupimages.net/up/21/23/v4zi.jpg',
         'Broche',
         'DUNOD',
         (
@@ -484,7 +481,7 @@ values
 values
     (
         '978-2840019619',
-        '11.png',
+        'https://zupimages.net/up/21/23/zdyy.jpg',
         'Broche',
         'PUF',
         (
@@ -517,7 +514,7 @@ values
 values
     (
         '978-2212570793',
-        '12.png',
+        'https://zupimages.net/up/21/23/bf1h.jpg',
         'Broche',
         'Eyrolles',
         (
@@ -550,7 +547,7 @@ values
 values
     (
         '978-2100809363',
-        '13.png',
+        'https://zupimages.net/up/21/23/l329.jpg',
         'Broche',
         'DUNOD',
         (
@@ -583,7 +580,7 @@ values
 values
     (
         '978-2212556261',
-        '14.png',
+        'https://zupimages.net/up/21/23/v05f.jpg',
         'Broche',
         'VUIBERT',
         (
@@ -616,7 +613,7 @@ values
 values
     (
         '978-2368907092',
-        '15.png',
+        'https://zupimages.net/up/21/23/fmgu.jpg',
         'Broche',
         'DUNOD',
         (
