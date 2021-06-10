@@ -47,7 +47,7 @@ CREATE TABLE utilisateur(
 );
 
 CREATE TABLE commande (
-    num INT PRIMARY KEY,
+    num INT PRIMARY KEY AUTO_INCREMENT,
     dateCommande DATE,
     total int,
     idUtilisateur int,
@@ -55,7 +55,7 @@ CREATE TABLE commande (
 );
 
 CREATE TABLE LigneCommande (
-    id INT PRIMARY KEY NOT NULL,
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     quantiteCommande INT,
     refArticle INT,
     numCommande INT,
