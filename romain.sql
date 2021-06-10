@@ -3,8 +3,7 @@ insert into
 values
     ('DUNOD'),
     ('Editions ENI'),
-    ('QSG'),
-    ('Eyrolles');
+    ('QSG');
 
 insert into
     genre
@@ -71,14 +70,6 @@ Une première annexe guide le développeur web dans l’installation  en local d
         32
     ),
     (
-        'Node.js - Exploitez la puissance de JavaScript côté serveur',
-        "Ce livre s'adresse aux développeurs souhaitant découvrir et maîtriser le framework JavaScript Node. La maîtrise du développement en JavaScript ainsi que de bonnes connaissances sur les outils en ligne de commande sont nécessaires afin de tirer le meilleur parti de ce livre.
-Les auteurs ont choisi une progression pédagogique qui démarre de l'installation de Node sur les trois grands systèmes d'exploitation (GNU/Linux, OS X et Windows) suivie d'une présentation des concepts essentiels du framework.
-Ils expliquent ensuite le fonctionnement du gestionnaire de paquets « ; npm », qui est le compagnon quotidien du développeur Node, puis décrivent les outils de développement qui permettent d'améliorer la qualité du code et de simplifier la vie du développeur en automatisant un maximum de tâches (comme par exemple JSHint et Gulp).",
-        39.00,
-        6
-    ),
-    (
         'Apprendre à programmer avec Python 3',
         "Reconnu et utilisé par les enseignants de nombreuses écoles et IUT, complété d'exercices accompagnés de leurs corrigés, cet ouvrage original et érudit est une référence sur tous les fondamentaux de la programmation : choix d'une structure de données, paramétrage, modularité, orientation objet en héritage, conception d'interface, multithreading et gestion d'événements, protocoles de communication et gestion réseau, bases de données... jusqu'à la désormais indispensable norme Unicode (le format UTF-8). On verra notamment la réalisation avec Python 3 d'une application web interactive et autonome, intégrant une base de données SQLite. Cette nouvelle édition traite de la possibilité de produire des documents imprimables (PDF) de grande qualité en exploitant les ressources combinées de Python 2 et Python 3.",
         32.40,
@@ -117,7 +108,7 @@ insert into
 values
     (
         '978-2409007613',
-        'bigdata3.png',
+        'https://zupimages.net/up/21/23/i7di.jpg',
         'Broche',
         'DUNOD',
         (
@@ -132,7 +123,7 @@ values
     ),
     (
         '978-2100773510',
-        'bigdata2.jpg',
+        'https://zupimages.net/up/21/23/7ih4.jpg',
         'Broche',
         'DUNOD',
         (
@@ -147,7 +138,7 @@ values
     ),
     (
         '978-2501140997',
-        'bigdata3.jpg',
+        'https://zupimages.net/up/21/23/cf8r.png',
         'Broche',
         'Editions ENI',
         (
@@ -162,7 +153,7 @@ values
     ),
     (
         '978-2130792215',
-        'bigdata4.jpg',
+        'https://zupimages.net/up/21/23/zdsp.jpg',
         'Broche',
         'QSG',
         (
@@ -177,7 +168,7 @@ values
     ),
     (
         '978-2100790685',
-        'bdd1.jpg',
+        'https://zupimages.net/up/21/23/5gfn.jpg',
         'Broche',
         'DUNOD',
         (
@@ -192,7 +183,7 @@ values
     ),
     (
         '978-2100814305',
-        'javascript1.jpg',
+        'https://zupimages.net/up/21/23/e8td.jpg',
         'Broche',
         'QSG',
         (
@@ -206,8 +197,9 @@ values
         'languages de programmation'
     ),
 (
+    -- ici bug
         '978-2746089785',
-        'javascript2.jpg',
+        'https://zupimages.net/up/21/23/o8cs.jpg',
         'Broche',
         'Editions ENI',
         (
@@ -222,7 +214,7 @@ values
     ),
 (
         '978-2212134346',
-        'python1.jpg',
+        'https://zupimages.net/up/21/23/2k4r.jpg',
         'Broche',
         'Eyrolles',
         (
@@ -237,7 +229,7 @@ values
     ),
 (
         '978-2416000188',
-        'java1.jpg',
+        'https://zupimages.net/up/21/23/zvf9.jpg',
         'Broche',
         'Eyrolles',
         (
@@ -252,7 +244,7 @@ values
     ),
 (
         '978-2409026300',
-        'java2.jpg',
+        'https://zupimages.net/up/21/23/xmzo.jpg',
         'Broche',
         'Editions ENI',
         (
